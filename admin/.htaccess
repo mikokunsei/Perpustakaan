@@ -1,0 +1,12 @@
+RewriteEngine On
+Options All -Indexes
+
+RewriteRule ^login$ login.php [L]
+RewriteRule ^register$ register.php [L]
+RewriteRule ^logout$ logout.php [L]
+RewriteRule ^dashboard$ index.php?page=dashboard [L]
+
+RewriteRule ^profile$ index.php?page=profile [L]
+RewriteRule ^pengunjung$ index.php?page=pengunjung [L]
+RewriteRule ^petugas$ index.php?page=petugas [L]
+RewriteRule ^buku$ index.php?page=buku [L]
